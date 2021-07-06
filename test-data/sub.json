@@ -1,0 +1,7 @@
+{
+"product":"newspaper",
+"price": {"amount":100, "cur": "EUR"},
+"startDate":"2021-01-01",
+"endDate":"2025-01-01",
+"paymentPeriod":"QUARTERLY"
+}
