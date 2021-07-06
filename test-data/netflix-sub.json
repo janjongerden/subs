@@ -1,0 +1,7 @@
+{
+"product":"netflix",
+"price": {"amount":50, "cur": "USD"},
+"startDate":"2021-01-01",
+"endDate":"2021-12-01",
+"paymentPeriod":"MONTHLY"
+}

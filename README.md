@@ -20,11 +20,17 @@ Insert a subscription:
 
 ```
 curl -X POST http://localhost:3000/subscription \
---data-binary "@test-data/sub.json" -H "Content-Type: application/json"
+--data-binary "@test-data/netflix-sub.json" -H "Content-Type: application/json"
 ```
 
 Retrieve a subscription by id:
 
 ```
 curl http://localhost:3000/subscription/1
+```
+
+Retrieve all subscriptions:
+
+```
+curl http://localhost:3000/subscription
 ```

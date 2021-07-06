@@ -12,4 +12,8 @@ const retrieveSub = (id) => {
     return subs[id];
 };
 
-module.exports = {saveSub, retrieveSub};
+const retrieveAll = () => {
+    return subs;
+};
+
+module.exports = {saveSub, retrieveSub, retrieveAll};
