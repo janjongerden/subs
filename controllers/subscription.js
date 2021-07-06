@@ -7,7 +7,11 @@ const createSub = (req, res, next) => {
 
 const getSub = (req, res) => {
     const id = req.params.id;
-    res.json(store.retrieveSub(id));
+    const sub = store.retrieveSub(id);
+    if (!sub) {
+        res.sendStatus(404);
+    }
+    res.json(sub);
 };
 
 const getAllSubs = (req, res) => {
